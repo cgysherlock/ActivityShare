@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ASLoginViewController.h"
+#import "AMapFoundationKit.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    AMapServices *services = [AMapServices sharedServices];
+    services.apiKey = @"e1013893c65a7ada47846a7325e492ea";
+    services.enableHTTPS = NO;
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     

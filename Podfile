@@ -24,6 +24,12 @@ target 'ActivitySharing' do
   
   pod 'YYCache'
   
-  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+  pod 'UITableView+FDTemplateLayoutCell'
+
+  pod 'AMap3DMap' #3D地图SDK 
+
+#pod 'AMap2DMap' #2D地图SDK (2D和3D不能同时使用) s
+  
+  pod 'AMapSearch' #搜索功能 
   
 end
