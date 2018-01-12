@@ -7,7 +7,6 @@
 //
 
 #import "ASBaseViewController.h"
-#import "Masonry.h"
 
 @interface ASBaseViewController ()
 

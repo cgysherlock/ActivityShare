@@ -18,6 +18,8 @@
 		16CBB417200499490053C0F3 /* ASBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB416200499490053C0F3 /* ASBaseViewController.m */; };
 		16CBB41920049BC80053C0F3 /* ASLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CBB41820049BC80053C0F3 /* ASLoginViewController.xib */; };
 		16CBB42220049F7F0053C0F3 /* UIButton+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB42120049F7F0053C0F3 /* UIButton+BackgroundColor.m */; };
+		16DAA1382008977C0078B29B /* ASNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAA1372008977C0078B29B /* ASNavigationController.m */; };
+		16DAA142200898030078B29B /* ASTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAA141200898030078B29B /* ASTabBarController.m */; };
 		4B08D39A7127A31DE01D307B /* libPods-ActivitySharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B83E2A1A7177ECC7400F61 /* libPods-ActivitySharing.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,10 @@
 		16CBB41820049BC80053C0F3 /* ASLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ASLoginViewController.xib; sourceTree = "<group>"; };
 		16CBB42020049F7F0053C0F3 /* UIButton+BackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroundColor.h"; sourceTree = "<group>"; };
 		16CBB42120049F7F0053C0F3 /* UIButton+BackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroundColor.m"; sourceTree = "<group>"; };
+		16DAA1362008977C0078B29B /* ASNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASNavigationController.h; sourceTree = "<group>"; };
+		16DAA1372008977C0078B29B /* ASNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASNavigationController.m; sourceTree = "<group>"; };
+		16DAA140200898030078B29B /* ASTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTabBarController.h; sourceTree = "<group>"; };
+		16DAA141200898030078B29B /* ASTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTabBarController.m; sourceTree = "<group>"; };
 		31DB4D620807ECCC18567937 /* Pods-ActivitySharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivitySharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing.release.xcconfig"; sourceTree = "<group>"; };
 		3F12C86182294A146EED06CF /* Pods-ActivitySharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivitySharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +143,10 @@
 			children = (
 				16CBB415200499490053C0F3 /* ASBaseViewController.h */,
 				16CBB416200499490053C0F3 /* ASBaseViewController.m */,
+				16DAA1362008977C0078B29B /* ASNavigationController.h */,
+				16DAA1372008977C0078B29B /* ASNavigationController.m */,
+				16DAA140200898030078B29B /* ASTabBarController.h */,
+				16DAA141200898030078B29B /* ASTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -305,8 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CBB3F720045B170053C0F3 /* ASLoginViewController.m in Sources */,
+				16DAA142200898030078B29B /* ASTabBarController.m in Sources */,
 				16CBB40220045B170053C0F3 /* main.m in Sources */,
 				16CBB42220049F7F0053C0F3 /* UIButton+BackgroundColor.m in Sources */,
+				16DAA1382008977C0078B29B /* ASNavigationController.m in Sources */,
 				16CBB40B200470ED0053C0F3 /* ASUserDefaults.m in Sources */,
 				16CBB3F420045B170053C0F3 /* AppDelegate.m in Sources */,
 				16CBB40F200471540053C0F3 /* ASUser.m in Sources */,
