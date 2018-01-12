@@ -60,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		166F626420088D2B005932BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB3FB20045B170053C0F3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		16CBB3E620045B170053C0F3 = {
 			isa = PBXGroup;
 			children = (
@@ -68,9 +76,10 @@
 				16CBB40C200471460053C0F3 /* Model */,
 				16CBB41F20049C4F0053C0F3 /* Login */,
 				16CBB408200470C90053C0F3 /* Utility */,
-				16CBB3F020045B170053C0F3 /* Products */,
-				D794F7FBA3ABCEA81FA3FA5E /* Pods */,
 				16CBB4102004968F0053C0F3 /* Supporting Files */,
+				D794F7FBA3ABCEA81FA3FA5E /* Pods */,
+				166F626420088D2B005932BE /* Resources */,
+				16CBB3F020045B170053C0F3 /* Products */,
 				5BDDF5A996F43AD97E5E2C05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -88,10 +97,6 @@
 			children = (
 				16CBB3F220045B170053C0F3 /* AppDelegate.h */,
 				16CBB3F320045B170053C0F3 /* AppDelegate.m */,
-				16CBB3FB20045B170053C0F3 /* Assets.xcassets */,
-				16CBB3FD20045B170053C0F3 /* LaunchScreen.storyboard */,
-				16CBB40020045B170053C0F3 /* Info.plist */,
-				16CBB40120045B170053C0F3 /* main.m */,
 			);
 			path = ActivitySharing;
 			sourceTree = "<group>";
@@ -119,6 +124,9 @@
 		16CBB4102004968F0053C0F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				16CBB3FD20045B170053C0F3 /* LaunchScreen.storyboard */,
+				16CBB40020045B170053C0F3 /* Info.plist */,
+				16CBB40120045B170053C0F3 /* main.m */,
 				16CBB411200496B70053C0F3 /* as.pch */,
 			);
 			path = "Supporting Files";
