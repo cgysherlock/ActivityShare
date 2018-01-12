@@ -1,0 +1,19 @@
+//
+//  as.pch
+//  ActivitySharing
+//
+//  Created by sherlock on 2018/1/9.
+//  Copyright © 2018年 cgy. All rights reserved.
+//
+
+#ifndef as_pch
+#define as_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* as_pch */
+ ™™
+#import "ASUserDefaults.h"
+#import "ASBaseViewController.h"
+#import <Foundation/Foundation.h>

@@ -1,0 +1,22 @@
+{
+  "name": "ASMember",
+  "version": "0.1.0",
+  "summary": "A short description of ASMember.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sherlock/ASMember",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sherlock": "251879836@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Sherlock/ASMember.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASMember/Classes/**/*"
+}

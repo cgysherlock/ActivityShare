@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CBB3F420045B170053C0F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB3F320045B170053C0F3 /* AppDelegate.m */; };
+		16CBB3F720045B170053C0F3 /* ASLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB3F620045B170053C0F3 /* ASLoginViewController.m */; };
+		16CBB3FC20045B170053C0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CBB3FB20045B170053C0F3 /* Assets.xcassets */; };
+		16CBB3FF20045B170053C0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CBB3FD20045B170053C0F3 /* LaunchScreen.storyboard */; };
+		16CBB40220045B170053C0F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB40120045B170053C0F3 /* main.m */; };
+		16CBB40B200470ED0053C0F3 /* ASUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB40A200470ED0053C0F3 /* ASUserDefaults.m */; };
+		16CBB40F200471540053C0F3 /* ASUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB40E200471540053C0F3 /* ASUser.m */; };
+		16CBB413200497420053C0F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CBB412200497420053C0F3 /* MapKit.framework */; };
+		16CBB417200499490053C0F3 /* ASBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB416200499490053C0F3 /* ASBaseViewController.m */; };
+		16CBB41920049BC80053C0F3 /* ASLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16CBB41820049BC80053C0F3 /* ASLoginViewController.xib */; };
+		16CBB42220049F7F0053C0F3 /* UIButton+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CBB42120049F7F0053C0F3 /* UIButton+BackgroundColor.m */; };
+		4B08D39A7127A31DE01D307B /* libPods-ActivitySharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B83E2A1A7177ECC7400F61 /* libPods-ActivitySharing.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B83E2A1A7177ECC7400F61 /* libPods-ActivitySharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ActivitySharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CBB3EF20045B170053C0F3 /* ActivitySharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivitySharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CBB3F220045B170053C0F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16CBB3F320045B170053C0F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16CBB3F520045B170053C0F3 /* ASLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASLoginViewController.h; sourceTree = "<group>"; };
+		16CBB3F620045B170053C0F3 /* ASLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASLoginViewController.m; sourceTree = "<group>"; };
+		16CBB3FB20045B170053C0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16CBB3FE20045B170053C0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16CBB40020045B170053C0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CBB40120045B170053C0F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16CBB409200470ED0053C0F3 /* ASUserDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASUserDefaults.h; sourceTree = "<group>"; };
+		16CBB40A200470ED0053C0F3 /* ASUserDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASUserDefaults.m; sourceTree = "<group>"; };
+		16CBB40D200471540053C0F3 /* ASUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASUser.h; sourceTree = "<group>"; };
+		16CBB40E200471540053C0F3 /* ASUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASUser.m; sourceTree = "<group>"; };
+		16CBB411200496B70053C0F3 /* as.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = as.pch; sourceTree = "<group>"; };
+		16CBB412200497420053C0F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		16CBB415200499490053C0F3 /* ASBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASBaseViewController.h; sourceTree = "<group>"; };
+		16CBB416200499490053C0F3 /* ASBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBaseViewController.m; sourceTree = "<group>"; };
+		16CBB41820049BC80053C0F3 /* ASLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ASLoginViewController.xib; sourceTree = "<group>"; };
+		16CBB42020049F7F0053C0F3 /* UIButton+BackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroundColor.h"; sourceTree = "<group>"; };
+		16CBB42120049F7F0053C0F3 /* UIButton+BackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroundColor.m"; sourceTree = "<group>"; };
+		31DB4D620807ECCC18567937 /* Pods-ActivitySharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivitySharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing.release.xcconfig"; sourceTree = "<group>"; };
+		3F12C86182294A146EED06CF /* Pods-ActivitySharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivitySharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16CBB3EC20045B170053C0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CBB413200497420053C0F3 /* MapKit.framework in Frameworks */,
+				4B08D39A7127A31DE01D307B /* libPods-ActivitySharing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CBB3E620045B170053C0F3 = {
+			isa = PBXGroup;
+			children = (
+				16CBB3F120045B170053C0F3 /* ActivitySharing */,
+				16CBB414200498EC0053C0F3 /* Base */,
+				16CBB40C200471460053C0F3 /* Model */,
+				16CBB41F20049C4F0053C0F3 /* Login */,
+				16CBB408200470C90053C0F3 /* Utility */,
+				16CBB3F020045B170053C0F3 /* Products */,
+				D794F7FBA3ABCEA81FA3FA5E /* Pods */,
+				16CBB4102004968F0053C0F3 /* Supporting Files */,
+				5BDDF5A996F43AD97E5E2C05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16CBB3F020045B170053C0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB3EF20045B170053C0F3 /* ActivitySharing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16CBB3F120045B170053C0F3 /* ActivitySharing */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB3F220045B170053C0F3 /* AppDelegate.h */,
+				16CBB3F320045B170053C0F3 /* AppDelegate.m */,
+				16CBB3FB20045B170053C0F3 /* Assets.xcassets */,
+				16CBB3FD20045B170053C0F3 /* LaunchScreen.storyboard */,
+				16CBB40020045B170053C0F3 /* Info.plist */,
+				16CBB40120045B170053C0F3 /* main.m */,
+			);
+			path = ActivitySharing;
+			sourceTree = "<group>";
+		};
+		16CBB408200470C90053C0F3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB409200470ED0053C0F3 /* ASUserDefaults.h */,
+				16CBB40A200470ED0053C0F3 /* ASUserDefaults.m */,
+				16CBB42020049F7F0053C0F3 /* UIButton+BackgroundColor.h */,
+				16CBB42120049F7F0053C0F3 /* UIButton+BackgroundColor.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		16CBB40C200471460053C0F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB40D200471540053C0F3 /* ASUser.h */,
+				16CBB40E200471540053C0F3 /* ASUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16CBB4102004968F0053C0F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB411200496B70053C0F3 /* as.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16CBB414200498EC0053C0F3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB415200499490053C0F3 /* ASBaseViewController.h */,
+				16CBB416200499490053C0F3 /* ASBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		16CBB41F20049C4F0053C0F3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB3F520045B170053C0F3 /* ASLoginViewController.h */,
+				16CBB3F620045B170053C0F3 /* ASLoginViewController.m */,
+				16CBB41820049BC80053C0F3 /* ASLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5BDDF5A996F43AD97E5E2C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16CBB412200497420053C0F3 /* MapKit.framework */,
+				09B83E2A1A7177ECC7400F61 /* libPods-ActivitySharing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D794F7FBA3ABCEA81FA3FA5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F12C86182294A146EED06CF /* Pods-ActivitySharing.debug.xcconfig */,
+				31DB4D620807ECCC18567937 /* Pods-ActivitySharing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16CBB3EE20045B170053C0F3 /* ActivitySharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16CBB40520045B170053C0F3 /* Build configuration list for PBXNativeTarget "ActivitySharing" */;
+			buildPhases = (
+				4285DB616E94C2169EBF9CEC /* [CP] Check Pods Manifest.lock */,
+				16CBB3EB20045B170053C0F3 /* Sources */,
+				16CBB3EC20045B170053C0F3 /* Frameworks */,
+				16CBB3ED20045B170053C0F3 /* Resources */,
+				93DDEA377EF62EB177DFCD56 /* [CP] Embed Pods Frameworks */,
+				065D0505055AE956C6E268A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActivitySharing;
+			productName = ActivitySharing;
+			productReference = 16CBB3EF20045B170053C0F3 /* ActivitySharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16CBB3E720045B170053C0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = cgy;
+				TargetAttributes = {
+					16CBB3EE20045B170053C0F3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 16CBB3EA20045B170053C0F3 /* Build configuration list for PBXProject "ActivitySharing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16CBB3E620045B170053C0F3;
+			productRefGroup = 16CBB3F020045B170053C0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CBB3EE20045B170053C0F3 /* ActivitySharing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16CBB3ED20045B170053C0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CBB3FF20045B170053C0F3 /* LaunchScreen.storyboard in Resources */,
+				16CBB41920049BC80053C0F3 /* ASLoginViewController.xib in Resources */,
+				16CBB3FC20045B170053C0F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065D0505055AE956C6E268A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing-resources.sh",
+				"${PODS_ROOT}/HXWeiboPhotoPicker/微博照片选择/HXWeiboPhotoPicker/HXWeiboPhotoPicker.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4285DB616E94C2169EBF9CEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActivitySharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93DDEA377EF62EB177DFCD56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ActivitySharing/Pods-ActivitySharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16CBB3EB20045B170053C0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CBB3F720045B170053C0F3 /* ASLoginViewController.m in Sources */,
+				16CBB40220045B170053C0F3 /* main.m in Sources */,
+				16CBB42220049F7F0053C0F3 /* UIButton+BackgroundColor.m in Sources */,
+				16CBB40B200470ED0053C0F3 /* ASUserDefaults.m in Sources */,
+				16CBB3F420045B170053C0F3 /* AppDelegate.m in Sources */,
+				16CBB40F200471540053C0F3 /* ASUser.m in Sources */,
+				16CBB417200499490053C0F3 /* ASBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16CBB3FD20045B170053C0F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16CBB3FE20045B170053C0F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16CBB40320045B170053C0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/as.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16CBB40420045B170053C0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/as.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16CBB40620045B170053C0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F12C86182294A146EED06CF /* Pods-ActivitySharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMLFMA2W7X;
+				INFOPLIST_FILE = ActivitySharing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.ActivitySharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		16CBB40720045B170053C0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DB4D620807ECCC18567937 /* Pods-ActivitySharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMLFMA2W7X;
+				INFOPLIST_FILE = ActivitySharing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sherlock.ActivitySharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16CBB3EA20045B170053C0F3 /* Build configuration list for PBXProject "ActivitySharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CBB40320045B170053C0F3 /* Debug */,
+				16CBB40420045B170053C0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CBB40520045B170053C0F3 /* Build configuration list for PBXNativeTarget "ActivitySharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16CBB40620045B170053C0F3 /* Debug */,
+				16CBB40720045B170053C0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16CBB3E720045B170053C0F3 /* Project object */;
+}

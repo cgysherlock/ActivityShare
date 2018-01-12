@@ -1,0 +1,22 @@
+{
+  "name": "ASMapActivity",
+  "version": "0.1.0",
+  "summary": "A short description of ASMapActivity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sherlock/ASMapActivity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sherlock": "251879836@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Sherlock/ASMapActivity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ASMapActivity/Classes/**/*"
+}
