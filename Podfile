@@ -25,6 +25,8 @@ target 'ActivitySharing' do
   pod 'YYCache'
   
   pod 'UITableView+FDTemplateLayoutCell'
+  
+  pod 'RETableViewManager'
 
   pod 'AMap3DMap' #3D地图SDK 
 
