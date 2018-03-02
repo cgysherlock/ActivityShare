@@ -31,6 +31,7 @@ static NSString * const userKey = @"userKey";
 
 + (void)setUser:(ASUser *)user {
     [NSUserDefaults standardUserDefaults][userKey] = user;
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 + (id)objectForKey:(NSString *)key {
@@ -39,6 +40,7 @@ static NSString * const userKey = @"userKey";
 
 + (void)setObject:(id)obj forKey:(NSString *)key {
     [NSUserDefaults standardUserDefaults][key] = obj;
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 @end

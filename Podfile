@@ -10,6 +10,10 @@ target 'ActivitySharing' do
   
   pod 'MBProgressHUD'
   
+  pod 'pop'
+  
+  pod 'KVOController'
+  
   pod 'MJExtension'
   
   pod 'AFNetworking'
@@ -23,6 +27,12 @@ target 'ActivitySharing' do
   pod 'MJRefresh'
   
   pod 'YYCache'
+  
+  pod 'YYModel'
+  
+  pod 'YYText'
+
+  pod 'libextobjc'
   
   pod 'UITableView+FDTemplateLayoutCell'
   
